@@ -1,5 +1,6 @@
 
 
+
 # Production Application Configuration
 application:
   name: DevOpsSimulator
@@ -24,6 +25,7 @@ database:
 features:
   auto_scaling: true
   load_balancer: enabled
+
   backup_enabled: true
 
 # Development Application Configuration
@@ -113,4 +115,6 @@ security:
   zero_trust: enabled
   encryption: AES-256
   audit_logging: comprehensive
+
+  backup_enabled: true
 

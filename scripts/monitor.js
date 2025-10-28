@@ -1,6 +1,5 @@
 /**
-
-
+ (updating main)
  * System Monitoring Script - Production
  * Monitors application health and performance
  */
@@ -29,6 +28,7 @@ function checkSystemHealth() {
   
   console.log('System Status: HEALTHY');
 }
+
 
 const monitorConfig = {
   interval: 5000, // 5 seconds (faster for development)
@@ -220,4 +220,12 @@ if (monitorConfig.aiEnabled) {
     console.log('   Model updated successfully');
   }, 120000); // Every 2 minutes
 }
+
+
+// Start monitoring
+console.log(`Monitoring every ${monitorConfig.interval}ms`);
+setInterval(checkSystemHealth, monitorConfig.interval);
+
+// Run first check immediately
+checkSystemHealth();
 

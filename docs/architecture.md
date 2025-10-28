@@ -1,10 +1,16 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 0312c6f (updating main)
 # System Architecture
 
 ## Overview
 DevOps Simulator follows a microservices architecture designed for high availability and scalability.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 0312c6f (updating main)
 ## Components
 
 ### 1. Application Server
@@ -30,6 +36,7 @@ DevOps Simulator follows a microservices architecture designed for high availabi
 ## Security
 - SSL/TLS encryption
 - Database connection encryption
+<<<<<<< HEAD
 - Regular security audits
 =======
 **Development Version**: This document describes the development architecture with experimental features.
@@ -131,3 +138,6 @@ DevOps Simulator follows an **event-driven microservices architecture** with AI/
 - **Metrics**: Prometheus + Thanos (long-term storage)
 - **Logs**: ELK Stack + AI log analysis
 >>>>>>> conflict-simulator
+=======
+- Regular security audits
+>>>>>>> 0312c6f (updating main)

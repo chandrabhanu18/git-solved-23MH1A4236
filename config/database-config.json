@@ -2,6 +2,9 @@
   "connection": {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 0312c6f (updating main)
     "host": "prod-db.example.com",
     "port": 5432,
     "database": "devops_production",
@@ -20,6 +23,7 @@
     "enabled": true,
     "replicas": 2,
     "sync_mode": "synchronous"
+<<<<<<< HEAD
 =======
     "host": "localhost",
     "port": 5432,
@@ -88,5 +92,7 @@
     "alert_on_anomaly": true,
     "metrics_export": "prometheus"
 >>>>>>> conflict-simulator
+=======
+>>>>>>> 0312c6f (updating main)
   }
 }
